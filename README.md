@@ -20,13 +20,20 @@ The model ingests a sequence of past 30 minutes of market data and technical ind
 5.  **Fully Connected Layers:** The outputs from CNN and Attention layers are concatenated and passed through Dense layers to produce the final prediction.
 
 ## 📁 Project Structure
--crypto-price-predictor/
--├── predict.ipynb # Main Jupyter notebook for data processing and model training
--├── requirements.txt # Python dependencies (see below)
--├── data/ # Directory for your input data (not included in repo)
--│ └── data.csv # Expected input data file
--├── checkpoint/ # Directory for training checkpoints (created automatically)
--└── saved_model/ # Directory for the final saved model (created automatically)
+crypto-price-predictor/
+
+├── predict.ipynb # Main Jupyter notebook for data processing and model training
+
+├── requirements.txt # Python dependencies (see below)
+
+├── data/ # Directory for your input data (not included in repo)
+
+│ └── data.csv # Expected input data file
+
+├── checkpoint/ # Directory for training checkpoints (created automatically)
+
+└── saved_model/ # Directory for the final saved model (created automatically)
+
 
 ## ⚙️ Setup and Installation
 
